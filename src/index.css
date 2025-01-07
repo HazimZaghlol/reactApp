@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Common styles for all headings */
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mt-0 mb-2 font-medium leading-tight;
+  }
+
+  /* Paragraph styling */
+  p {
+    @apply mb-4;
+  }
+  .icon {
+    @apply border border-white rounded-full p-2.5 mx-1;
+  }
+}
